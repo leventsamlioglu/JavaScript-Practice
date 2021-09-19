@@ -16,3 +16,5 @@ myMother.changeName("Doe");
 
 // Display last name
 console.log("My mother's last name is " + myMother.lastName);
+
+// Outputs 'My mother's last name is Doe'

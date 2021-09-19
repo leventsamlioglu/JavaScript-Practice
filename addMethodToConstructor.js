@@ -14,3 +14,5 @@ const myFather = new Person("John", "Doe", 50, "blue");
 
 // Display full name
 console.log("My father is " + myFather.name());
+
+// Outputs 'My father is John Doe'
