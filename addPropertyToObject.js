@@ -15,3 +15,5 @@ myFather.nationality = "English";
 
 // Display nationality
 console.log("My father is " + myFather.nationality);
+
+// Outputs: My father is English

@@ -18,3 +18,5 @@ console.log(
     ". My mother is " +
     myMother.nationality
 );
+
+// Outputs: My father is English. My mother is English

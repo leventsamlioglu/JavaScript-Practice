@@ -17,3 +17,5 @@ myFather.name = function () {
 
 // Display full name
 console.log("My father is " + myFather.name());
+
+// Outputs: My father is John Doe
