@@ -7,3 +7,4 @@ function arrayFromRange(min, max) {
   for (let i = min; i <= max; i++) output.push(i);
   return output;
 }
+// Outputs: [1,2,3,4,5]

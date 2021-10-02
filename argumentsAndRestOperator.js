@@ -9,3 +9,4 @@ function sum(...args) {
 }
 
 console.log("sum", sum(1, 2, 3, 4, 5));
+// Outputs: sum 15
