@@ -1,7 +1,5 @@
 const combine = (resultHandler, operation, ...numbers) => {
-  const validateNumber = (number) => {
-    return isNaN(number) ? 0 : number;
-  };
+  const validateNumber = (number) => (isNaN(number) ? 0 : number);
 
   let sum = 0;
   for (const num of numbers) {
@@ -15,7 +13,7 @@ const combine = (resultHandler, operation, ...numbers) => {
 };
 
 const showResult = (messageText, result) => {
-  alert(messageText + " " + result);
+  console.log(messageText + " " + result);
 };
 
 combine(
@@ -48,3 +46,8 @@ combine(
   15,
   20
 );
+
+// Outputs:
+// The result after adding all numbers is: 19
+// The result after adding all numbers is: 142
+// The result after subtracting all numbers is: -46
