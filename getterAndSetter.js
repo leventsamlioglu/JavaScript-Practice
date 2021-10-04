@@ -2,7 +2,7 @@ const person = {
   firstName: "Levent",
   lastName: "Samlioglu",
   get fullName() {
-    return `${person.firstName} ${person.lastName}`;
+    return `${this.firstName} ${this.lastName}`;
   },
   set fullName(value) {
     const parts = value.split(" ");
@@ -13,4 +13,6 @@ const person = {
 
 person.fullName = "New Name";
 
-console.log(person);
+console.log(person.fullName);
+
+// Outputs: New Name
