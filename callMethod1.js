@@ -1,16 +1,16 @@
 const person = {
-  fullName: function() {
+  fullName: function () {
     return this.firstName + " " + this.lastName;
-  }
-}
+  },
+};
 const person1 = {
-  firstName:"John",
-  lastName: "Doe"
-}
+  firstName: "John",
+  lastName: "Doe",
+};
 const person2 = {
-  firstName:"Mary",
-  lastName: "Doe"
-}
+  firstName: "Mary",
+  lastName: "Doe",
+};
 
 // This will return "Mary Doe"
-console.log(person.fullName.call(person1));
+console.log(person.fullName.call(person2));
