@@ -9,3 +9,4 @@ function except(array, excluded) {
     if (!excluded.includes(element)) output.push(element);
   return output;
 }
+// Outputs: [3]
