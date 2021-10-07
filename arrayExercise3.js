@@ -15,3 +15,4 @@ function move(array, index, offset) {
   output.splice(index + offset, 0, spliced);
   return output;
 }
+// Outputs: [ 1, 3, 4, 2, 5 ]
