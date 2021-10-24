@@ -21,3 +21,12 @@ const another = Object.assign(
 // const another = { ...circle, ...color };
 
 console.log(another);
+
+// Outputs:
+// {
+//   diameter: 2,
+//   newColor: 'blue',
+//   radius: 1,
+//   draw: [Function: draw],
+//   color: 'red'
+// }
