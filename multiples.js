@@ -1,7 +1,8 @@
 // Function will return the sum of all the multiples
 // of 3 and 5 from 0 up to limit.
 
-cconsole.log(sum(10));
+console.log(sum(10));
+// Outputs: 33
 
 function sum(limit) {
   let sum = 0;
