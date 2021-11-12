@@ -5,6 +5,7 @@ const items1 = filtered.map((value) => "<li>" + value + "</li>");
 const html = "<ul>" + items1.join("") + "</ul>";
 
 console.log(html);
+// <ul><li>1</li><li>2</li><li>3</li></ul>
 
 const items2 = numbers
   .filter((n) => n >= 0)
@@ -21,3 +22,4 @@ const items2 = numbers
 // });
 
 console.log(items2);
+// Outputs : [ 2, 3 ]
