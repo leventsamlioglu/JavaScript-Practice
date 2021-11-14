@@ -3,15 +3,22 @@ function Person() {
     (this.age = 25),
     (this.sayName = function () {
       // this is accessible
-      console.log(this.age);
+      console.log(this.age); // 25
 
-      function innerFunc() {
+      function innerFunc1() {
         // this refers to the global object
-        console.log(this.age);
-        console.log(this);
+        console.log(this.age); //undefined
+        console.log(this); // Object [global]
       }
 
-      innerFunc();
+      innerFunc1();
+
+      let innerFunc2 = () => {
+        // Inside the arrow function, this refers to the parent's scope.
+        console.log(this.age); // 25
+      };
+
+      innerFunc2();
     });
 }
 
