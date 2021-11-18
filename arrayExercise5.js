@@ -7,3 +7,5 @@ function getMax(array) {
     accumulator >= current ? accumulator : current
   );
 }
+
+// Outputs: 88
