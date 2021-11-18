@@ -14,3 +14,5 @@ function countOccurences(array, searchElement) {
     return accumulator + occurence;
   }, 0);
 }
+
+// Outputs: 3
