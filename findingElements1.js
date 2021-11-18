@@ -4,4 +4,4 @@ const found = array1.find(function (element) {
   return element > 10;
 });
 
-console.log(found);
+console.log(found); // 22
