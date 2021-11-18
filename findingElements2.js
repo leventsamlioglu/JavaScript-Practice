@@ -13,5 +13,5 @@ const courseIndex = courses.findIndex(function (courseIndex) {
   return course.name === "a";
 });
 
-console.log(course);
-console.log(courseIndex);
+console.log(course); // { id: 1, name: 'a' }
+console.log(courseIndex); // 0
