@@ -4,10 +4,10 @@ const allPositive = numbers.every(function (value) {
   return value >= 0;
 });
 
-console.log(allPositive);
+console.log(allPositive); // false
 
 const atLeastOnePositive = numbers.some(function (value) {
   return value >= 0;
 });
 
-console.log(atLeastOnePositive);
+console.log(atLeastOnePositive); // true
