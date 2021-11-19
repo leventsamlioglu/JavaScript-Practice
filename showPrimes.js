@@ -1,10 +1,13 @@
 // It shows the prime numbers up to the limit
 
-showPrimes(10);
+let primes = showPrimes(20);
+console.log("primes", primes);
 
 function showPrimes(limit) {
-  for (let number = 2; number <= limit; number++)
-    if (isPrime(number)) console.log(number);
+  const arr = [];
+  for (let number = 1; number <= limit; number++)
+    if (isPrime(number)) arr.push(number);
+  return arr;
 }
 
 function isPrime(number) {
@@ -13,3 +16,5 @@ function isPrime(number) {
 
   return true;
 }
+
+// Outputs: primes [ 1,  2,  3,  5, 7, 11, 13, 17, 19 ]
