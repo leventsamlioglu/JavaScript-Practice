@@ -15,4 +15,4 @@ obj.sort(function (a, b) {
   return 0;
 });
 
-console.log(obj);
+console.log(obj); // [ { id: 2, name: 'doe' }, { id: 1, name: 'John' } ]
