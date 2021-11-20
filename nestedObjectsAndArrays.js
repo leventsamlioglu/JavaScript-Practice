@@ -17,3 +17,15 @@ for (let i in myObj.cars) {
 }
 
 console.log(x);
+
+// Ford
+// Fiesta
+// Focus
+// Mustang
+// BMW
+// 320
+// X3
+// X5
+// Fiat
+// 500
+// Panda
