@@ -14,3 +14,5 @@ const myMother = new Person("Sally", "Rally", 48, "green");
 console.log(
   "My father is " + myFather.age + ". My mother is " + myMother.age + "."
 );
+
+// My father is 50. My mother is 48.
