@@ -11,8 +11,8 @@ const person = {
   },
 };
 
-person.fullName = "New Name";
+// person.fullName = "New Name";
+// Outputs: New Name
 
 console.log(person.fullName);
-
-// Outputs: New Name
+// Outputs: Levent Samlioglu
