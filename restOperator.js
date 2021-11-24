@@ -3,4 +3,4 @@ function sum(discount, ...prices) {
   return (1 - discount) * total;
 }
 
-console.log(sum(0.1, 10, 20));
+console.log(sum(0.1, 10, 20)); // 27
