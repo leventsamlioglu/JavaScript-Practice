@@ -9,7 +9,7 @@ const array = [80, 80, 50];
 // 80-89: B
 // 90-100: A
 
-console.log(calculateGrade(array));
+console.log(calculateGrade(array)); // C
 
 function calculateGrade(marks) {
   const average = calculateAverage(marks);
