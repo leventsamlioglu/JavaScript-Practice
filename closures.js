@@ -30,13 +30,14 @@ console.log(count1); // 0
 // ---------------------------------------------------------------------------------------------
 
 for (var i = 0; i < 3; i++) {
+  // if we use 'let' instead of 'var', output will be 0  1  2
   setTimeout(function log() {
     console.log(i); // after 1000ms it writes 3  3  3
   }, 1000);
 }
 
 for (var k = 0; k < 3; k++) {
-  const j = k;
+  const j = k; // if we use 'var' instead of 'const', output will be 2  2  2
   setTimeout(function log() {
     console.log(j); // after 1000ms it writes 0  1  2
   }, 1000);
