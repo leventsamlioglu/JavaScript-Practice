@@ -28,11 +28,11 @@ var result = add.bind(obj); // establishing the scope as "obj"
 console.log(result(1, 2, 3)); // result 106
 
 // ----------------------
-// Arrow Example
+// Arrow Example ***OPEN IN BROWSER***
 // ----------------------
 
 // Arrow Function
-var add = (a, b, c) => globalThis.num + a + b + c;
+var add = (a, b, c) => this.num + a + b + c;
 
 // call
 console.log(add.call(obj, 1, 2, 3)); // result 2026
