@@ -1,15 +1,18 @@
 const promise = new Promise((resolve, reject) => {
-  setTimeout(() => resolve("Resolving an asynchronous request!"), 2000);
+  console.log("I am the first!");
+  setTimeout(() => resolve("I am the third!"), 2000);
 });
 // Chain a promise
 promise
   .then((firstResponse) => {
     // Return a new value for the next then
-    return firstResponse + " And chaining!";
+    return firstResponse + " ..and work has done.";
   })
   .then((secondResponse) => {
     console.log(secondResponse);
   });
+
+console.log("I am the second!");
 
 //----------------------------------------------------------------------------------------------
 
