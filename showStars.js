@@ -11,3 +11,10 @@ function showStars(rows) {
     console.log(array);
   }
 }
+
+// Outputs:
+// *
+// **
+// ***
+// ****
+// *****
