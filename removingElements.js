@@ -9,4 +9,4 @@ numbers.shift();
 // Middle
 numbers.splice(0, 1);
 
-console.log(numbers);
+console.log(numbers); //[3]
