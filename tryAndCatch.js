@@ -15,7 +15,7 @@ const person = {
 try {
   person.fullName = "";
 } catch (e) {
-  alert(e);
+  alert(e); // { firstName: 'New', lastName: 'Name', fullName: [Setter] }
 }
 
 person.fullName = "New Name";
